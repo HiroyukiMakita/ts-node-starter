@@ -15,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/HiroyukiMakita/ts-node-starter/issues"
     },
-    "homepage": "https://github.com/HiroyukiMakita/ts-node-starter#readme"
+    "homepage": "https://github.com/HiroyukiMakita/ts-node-starter#readme",
+    "devDependencies": {
+        "typescript": "^4.2.3"
+    }
 }
