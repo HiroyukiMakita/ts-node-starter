@@ -21,7 +21,7 @@ $ npx tsc --init
 $ mkdir src && touch src/main.ts
 ```
 
-## Run Code main.ts
+## Run Code of main.ts
 
 ```
 $ npm run main
