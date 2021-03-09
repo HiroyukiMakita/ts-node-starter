@@ -20,3 +20,9 @@ $ npx tsc --init
   # create src/main.ts
 $ mkdir src && touch src/main.ts
 ```
+
+## Run Code main.ts
+
+```
+$ npm run main
+```
