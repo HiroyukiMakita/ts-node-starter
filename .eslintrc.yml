@@ -10,6 +10,8 @@ env:
   # ES2022 までに導入されたグローバル変数を認識する
   es2022: true
 
+parser: '@typescript-eslint/parser'
+
 parserOptions:
   # ES Modules を使ってコードを書く場合は module を指定する必要がある
   sourceType: module
