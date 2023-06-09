@@ -1,5 +1,6 @@
 # Any libraries
 node_modules
+.eslintcache
 
 # Environment file
 .env
