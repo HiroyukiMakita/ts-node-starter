@@ -37,6 +37,7 @@ $ yarn main
 
 - [commitlint - Lint commit messages](https://commitlint.js.org/#/)
 - [okonet/lint-staged: 🚫💩 — Run linters on git staged files](https://github.com/okonet/lint-staged)
+- [streamich/git-cz: Semantic Git commits](https://github.com/streamich/git-cz)
 
 and more...
 
