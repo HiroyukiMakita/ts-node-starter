@@ -28,7 +28,10 @@ extends:
   - 'prettier'
 
 # ルール設定
-rules: {}
+rules: {
+    # 型定義で no-unuse-vars のエラーが出ないように、ESLint デフォルトの no-unused-vars を無効化
+    'no-unused-vars': 'off',
+  }
 
 # https://eslint.org/docs/latest/user-guide/configuring/language-options#specifying-globals
 globals: {
