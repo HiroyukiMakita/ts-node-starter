@@ -19,6 +19,8 @@ parserOptions:
 plugins:
   # eslint-plugin-jest
   - jest
+  # 未使用の import を削除する
+  - unused-imports
 
 # パッケージが提供してくれているおすすめ設定を使う設定
 extends:
@@ -31,6 +33,8 @@ extends:
 rules: {
     # 型定義で no-unuse-vars のエラーが出ないように、ESLint デフォルトの no-unused-vars を無効化
     'no-unused-vars': 'off',
+    # 未使用の import を削除する
+    'unused-imports/no-unused-imports': 'error',
   }
 
 # https://eslint.org/docs/latest/user-guide/configuring/language-options#specifying-globals
