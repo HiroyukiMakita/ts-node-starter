@@ -50,7 +50,7 @@ describe('繰り返しテスト', () => {
     a    | b    | sum  | expected
     ${1} | ${1} | ${2} | ${true}
     ${2} | ${2} | ${3} | ${false}
-    ${2} | ${1} | ${3} | ${true} 
+    ${2} | ${1} | ${3} | ${true}
   `(`【テンプレートリテラル】 (($a + $b) === $sum) === $expected`, ({ a, b, sum, expected }) => {
     expect(a + b === sum).toBe(expected);
   });

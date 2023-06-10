@@ -5,8 +5,8 @@
     "main": "main.ts",
     "scripts": {
         "main": "ts-node src/main.ts",
-        "lint": "eslint --fix --cache '*.{js,jsx,ts,tsx}'",
-        "format": "prettier -w '*.{js,jsx,ts,tsx}'",
+        "lint": "eslint --fix --cache '**/*.{js,jsx,ts,tsx}'",
+        "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
         "lint:fix": "yarn format && yarn lint",
         "test": "./node_modules/.bin/jest --maxWorkers=50%",
         "prepare": "husky install"
